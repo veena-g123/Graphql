@@ -3,17 +3,16 @@ This project is a Spring Boot application with both REST API and GraphQL impleme
 The Postman collection for testing the REST API and GraphQL queries is available in the resources folder.
 The GraphQL schema file is located in the resources/graphql folder.
 Key Features and Dependencies
-The project uses the spring-boot-starter-graphql dependency for implementing GraphQL functionality.
+The project uses the **spring-boot-starter-graphql** dependency for implementing GraphQL functionality.
 Annotations Used
-@QueryMapping
+**@QueryMapping**
 
 Used for fetching data from the database.
 
-@MutationMapping
-
+**@MutationMapping**
 Used for posting or modifying data in the database.
 
-@Argument
+**@Argument**
 
 Used for passing filtering arguments to GraphQL queries or mutations.
 
