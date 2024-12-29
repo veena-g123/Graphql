@@ -1,0 +1,17 @@
+#extension of this file shpuld be graphqls
+type Product{
+    id:ID
+    name:String
+    category:String
+    price:Float
+    stock:Int
+}
+
+type Query{
+    getAllProducts:[Product]
+    getProductByCategory(category:String):[Product]
+}
+type Mutation{
+    updateStock(id:ID,stock:Int):Product
+    reciveNewShipment(id:ID,quantity:Int):Product
+}
