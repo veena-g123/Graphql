@@ -5,6 +5,7 @@ The GraphQL schema file is located in the resources/graphql folder.
 Key Features and Dependencies
 The project uses the **spring-boot-starter-graphql** dependency for implementing GraphQL functionality.
 Annotations Used
+
 **@QueryMapping**
 
 Used for fetching data from the database.
