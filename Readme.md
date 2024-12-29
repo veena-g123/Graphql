@@ -22,3 +22,6 @@ GraphQL Behavior
 The database returns the complete set of data matching the query.
 GraphQL filters the data as per the client’s request and returns only the requested fields.
 This ensures that clients receive precisely the data they need without additional overhead.
+
+java version used
+java 17
