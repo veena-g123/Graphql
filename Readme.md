@@ -10,6 +10,7 @@ Annotations Used
 Used for fetching data from the database.
 
 **@MutationMapping**
+
 Used for posting or modifying data in the database.
 
 **@Argument**
